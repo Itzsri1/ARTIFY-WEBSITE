@@ -1,0 +1,1441 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>Artify | Handmade Art & Crafts</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+<!-- =====================================================
+     NAVIGATION BAR
+     ===================================================== -->
+
+<header>
+
+    <nav class="navbar">
+
+
+        <!-- ARTIFY LOGO -->
+
+        <div class="artify-logo">
+
+            <span class="logo-hat"></span>
+
+            <span class="logo-text">
+                ARTIFY<span>.</span>
+            </span>
+
+        </div>
+
+
+        <!-- NAVIGATION LINKS -->
+
+        <ul class="nav-links">
+
+            <li>
+                <a href="#home">Home</a>
+            </li>
+
+            <li>
+                <a href="#shop">Shop</a>
+            </li>
+
+            <li>
+                <a href="#categories">Categories</a>
+            </li>
+
+            <li>
+                <a href="#about">About</a>
+            </li>
+
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+
+        </ul>
+
+
+        <!-- NAVIGATION ICONS -->
+
+        <div class="nav-icons">
+
+            <button id="searchBtn"
+                title="Search">
+
+                🔍
+
+            </button>
+
+
+            <button id="wishlistBtn"
+                title="Wishlist">
+
+                ♡
+                <span id="wishlistCount">0</span>
+
+            </button>
+
+
+            <button id="cartBtn"
+                title="Shopping Cart">
+
+                🛒
+                <span id="cartCount">0</span>
+
+            </button>
+
+        </div>
+
+    </nav>
+
+</header>
+
+
+
+<!-- =====================================================
+     HERO SECTION
+     ===================================================== -->
+
+<section class="hero" id="home">
+
+
+    <div class="hero-content">
+
+
+        <p class="small-heading">
+            HANDMADE WITH LOVE
+        </p>
+
+
+        <h1>
+
+            Discover Art That
+
+            <span>
+                Tells a Story.
+            </span>
+
+        </h1>
+
+
+        <p class="hero-text">
+
+            Explore unique handmade creations
+            crafted by talented artists and
+            creators from around the world.
+
+        </p>
+
+
+        <a href="#shop"
+            class="hero-button">
+
+            Explore Collection
+
+        </a>
+
+    </div>
+
+
+
+    <div class="hero-image">
+
+        <div class="art-circle">
+
+            🎨
+
+        </div>
+
+    </div>
+
+
+</section>
+
+
+
+<!-- =====================================================
+     CATEGORIES
+     ===================================================== -->
+
+<section class="categories"
+    id="categories">
+
+
+    <div class="section-heading">
+
+        <p>
+            EXPLORE
+        </p>
+
+        <h2>
+            Shop by Category
+        </h2>
+
+    </div>
+
+
+
+    <div class="category-container">
+
+
+        <!-- PAINTINGS -->
+
+        <div class="category-card"
+            data-category="Painting">
+
+            <div class="category-icon">
+                🎨
+            </div>
+
+            <h3>
+                Paintings
+            </h3>
+
+            <p>
+                Beautiful artwork for your space.
+            </p>
+
+        </div>
+
+
+
+        <!-- POTTERY -->
+
+        <div class="category-card"
+            data-category="Pottery">
+
+            <div class="category-icon">
+                🏺
+            </div>
+
+            <h3>
+                Pottery
+            </h3>
+
+            <p>
+                Handcrafted pottery made with care.
+            </p>
+
+        </div>
+
+
+
+        <!-- JEWELRY -->
+
+        <div class="category-card"
+            data-category="Jewelry">
+
+            <div class="category-icon">
+                💍
+            </div>
+
+            <h3>
+                Jewelry
+            </h3>
+
+            <p>
+                Unique handmade accessories.
+            </p>
+
+        </div>
+
+
+
+        <!-- HOME DECOR -->
+
+        <div class="category-card"
+            data-category="Home Decor">
+
+            <div class="category-icon">
+                🕯️
+            </div>
+
+            <h3>
+                Home Decor
+            </h3>
+
+            <p>
+                Creative pieces for your home.
+            </p>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     PRODUCTS
+     ===================================================== -->
+
+<section class="products"
+    id="shop">
+
+
+    <div class="section-heading">
+
+        <p>
+            OUR COLLECTION
+        </p>
+
+        <h2>
+            Featured Creations
+        </h2>
+
+    </div>
+
+
+
+    <!-- FILTER -->
+
+    <div class="filter-area">
+
+        <button id="showAllBtn"
+            class="filter-button">
+
+            Show All
+
+        </button>
+
+
+        <span id="filterText">
+
+            Showing all products
+
+        </span>
+
+    </div>
+
+
+
+    <!-- PRODUCT CONTAINER -->
+
+    <div class="product-container"
+        id="productContainer">
+
+
+
+        <!-- =================================================
+             PAINTING 1
+             ================================================= -->
+
+        <div class="product-card"
+            data-category="Painting"
+            data-name="Abstract Sunset"
+            data-price="799">
+
+
+            <div class="product-image">
+
+                <img
+                    src="https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?auto=format&fit=crop&w=800&q=80"
+                    alt="Abstract Sunset Painting">
+
+
+                <button class="wishlist"
+                    title="Add to Wishlist">
+
+                    ♡
+
+                </button>
+
+            </div>
+
+
+            <div class="product-info">
+
+                <p class="product-category">
+                    PAINTING
+                </p>
+
+                <h3>
+                    Abstract Sunset
+                </h3>
+
+                <p class="product-description">
+                    Handmade abstract artwork.
+                </p>
+
+
+                <div class="product-bottom">
+
+                    <span class="price">
+                        ₹799
+                    </span>
+
+                    <button class="add-cart">
+                        Add to Cart
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- =================================================
+             PAINTING 2
+             ================================================= -->
+
+        <div class="product-card"
+            data-category="Painting"
+            data-name="Floral Canvas"
+            data-price="899">
+
+
+            <div class="product-image">
+
+                <img
+                    src="https://images.unsplash.com/photo-1577083288073-40892c0860a4?auto=format&fit=crop&w=800&q=80"
+                    alt="Floral Canvas Painting">
+
+
+                <button class="wishlist">
+                    ♡
+                </button>
+
+            </div>
+
+
+            <div class="product-info">
+
+                <p class="product-category">
+                    PAINTING
+                </p>
+
+                <h3>
+                    Floral Canvas
+                </h3>
+
+                <p class="product-description">
+                    Colorful handmade floral canvas artwork.
+                </p>
+
+
+                <div class="product-bottom">
+
+                    <span class="price">
+                        ₹899
+                    </span>
+
+                    <button class="add-cart">
+                        Add to Cart
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- =================================================
+             PAINTING 3
+             ================================================= -->
+
+        <div class="product-card"
+            data-category="Painting"
+            data-name="Mountain Landscape"
+            data-price="1199">
+
+
+            <div class="product-image">
+
+                <img
+                    src="https://images.unsplash.com/photo-1579783901586-d88db74b4fe4?auto=format&fit=crop&w=800&q=80"
+                    alt="Mountain Landscape Painting">
+
+
+                <button class="wishlist">
+                    ♡
+                </button>
+
+            </div>
+
+
+            <div class="product-info">
+
+                <p class="product-category">
+                    PAINTING
+                </p>
+
+                <h3>
+                    Mountain Landscape
+                </h3>
+
+                <p class="product-description">
+                    Peaceful landscape inspired by nature.
+                </p>
+
+
+                <div class="product-bottom">
+
+                    <span class="price">
+                        ₹1199
+                    </span>
+
+                    <button class="add-cart">
+                        Add to Cart
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- =================================================
+             PAINTING 4
+             ================================================= -->
+
+        <div class="product-card"
+            data-category="Painting"
+            data-name="Modern Abstract Art"
+            data-price="1299">
+
+
+            <div class="product-image">
+
+                <img
+                    src="https://images.unsplash.com/photo-1549490349-8643362247b5?auto=format&fit=crop&w=800&q=80"
+                    alt="Modern Abstract Art">
+
+
+                <button class="wishlist">
+                    ♡
+                </button>
+
+            </div>
+
+
+            <div class="product-info">
+
+                <p class="product-category">
+                    PAINTING
+                </p>
+
+                <h3>
+                    Modern Abstract Art
+                </h3>
+
+                <p class="product-description">
+                    Contemporary abstract artwork for modern spaces.
+                </p>
+
+
+                <div class="product-bottom">
+
+                    <span class="price">
+                        ₹1299
+                    </span>
+
+                    <button class="add-cart">
+                        Add to Cart
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- =================================================
+             POTTERY 1
+             ================================================= -->
+
+        <div class="product-card"
+            data-category="Pottery"
+            data-name="Clay Flower Vase"
+            data-price="599">
+
+
+            <div class="product-image">
+
+                <img
+                    src="https://images.unsplash.com/photo-1610701596007-11502861dcfa?auto=format&fit=crop&w=800&q=80"
+                    alt="Clay Flower Vase">
+
+
+                <button class="wishlist">
+                    ♡
+                </button>
+
+            </div>
+
+
+            <div class="product-info">
+
+                <p class="product-category">
+                    POTTERY
+                </p>
+
+                <h3>
+                    Clay Flower Vase
+                </h3>
+
+                <p class="product-description">
+                    Handmade ceramic flower vase.
+                </p>
+
+
+                <div class="product-bottom">
+
+                    <span class="price">
+                        ₹599
+                    </span>
+
+                    <button class="add-cart">
+                        Add to Cart
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- =================================================
+             POTTERY 2
+             ================================================= -->
+
+        <div class="product-card"
+            data-category="Pottery"
+            data-name="Handmade Ceramic Bowl"
+            data-price="499">
+
+
+            <div class="product-image">
+
+                <img
+                    src="https://images.unsplash.com/photo-1578749556568-bc2c40e68b61?auto=format&fit=crop&w=800&q=80"
+                    alt="Handmade Ceramic Bowl">
+
+
+                <button class="wishlist">
+                    ♡
+                </button>
+
+            </div>
+
+
+            <div class="product-info">
+
+                <p class="product-category">
+                    POTTERY
+                </p>
+
+                <h3>
+                    Handmade Ceramic Bowl
+                </h3>
+
+                <p class="product-description">
+                    Simple handcrafted ceramic bowl.
+                </p>
+
+
+                <div class="product-bottom">
+
+                    <span class="price">
+                        ₹499
+                    </span>
+
+                    <button class="add-cart">
+                        Add to Cart
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- =================================================
+             POTTERY 3
+             ================================================= -->
+
+        <div class="product-card"
+            data-category="Pottery"
+            data-name="Rustic Clay Pot"
+            data-price="699">
+
+
+            <div class="product-image">
+
+                <img
+                    src="https://images.unsplash.com/photo-1576020799627-aeac74d58064?auto=format&fit=crop&w=800&q=80"
+                    alt="Rustic Clay Pot">
+
+
+                <button class="wishlist">
+                    ♡
+                </button>
+
+            </div>
+
+
+            <div class="product-info">
+
+                <p class="product-category">
+                    POTTERY
+                </p>
+
+                <h3>
+                    Rustic Clay Pot
+                </h3>
+
+                <p class="product-description">
+                    Rustic handcrafted pot with natural texture.
+                </p>
+
+
+                <div class="product-bottom">
+
+                    <span class="price">
+                        ₹699
+                    </span>
+
+                    <button class="add-cart">
+                        Add to Cart
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- =================================================
+             POTTERY 4
+             ================================================= -->
+
+        <div class="product-card"
+            data-category="Pottery"
+            data-name="Decorative Ceramic Vase"
+            data-price="899">
+
+
+            <div class="product-image">
+
+                <img
+                    src="https://images.unsplash.com/photo-1581783898377-1c85bf937427?auto=format&fit=crop&w=800&q=80"
+                    alt="Decorative Ceramic Vase">
+
+
+                <button class="wishlist">
+                    ♡
+                </button>
+
+            </div>
+
+
+            <div class="product-info">
+
+                <p class="product-category">
+                    POTTERY
+                </p>
+
+                <h3>
+                    Decorative Ceramic Vase
+                </h3>
+
+                <p class="product-description">
+                    Elegant ceramic vase for home interiors.
+                </p>
+
+
+                <div class="product-bottom">
+
+                    <span class="price">
+                        ₹899
+                    </span>
+
+                    <button class="add-cart">
+                        Add to Cart
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- =================================================
+             JEWELRY 1
+             ================================================= -->
+
+        <div class="product-card"
+            data-category="Jewelry"
+            data-name="Handmade Necklace"
+            data-price="999">
+
+
+            <div class="product-image">
+
+                <img
+                    src="https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=crop&w=800&q=80"
+                    alt="Handmade Necklace">
+
+
+                <button class="wishlist">
+                    ♡
+                </button>
+
+            </div>
+
+
+            <div class="product-info">
+
+                <p class="product-category">
+                    JEWELRY
+                </p>
+
+                <h3>
+                    Handmade Necklace
+                </h3>
+
+                <p class="product-description">
+                    Elegant handmade statement necklace.
+                </p>
+
+
+                <div class="product-bottom">
+
+                    <span class="price">
+                        ₹999
+                    </span>
+
+                    <button class="add-cart">
+                        Add to Cart
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- =================================================
+             JEWELRY 2
+             ================================================= -->
+
+        <div class="product-card"
+            data-category="Jewelry"
+            data-name="Pearl Bracelet"
+            data-price="699">
+
+
+            <div class="product-image">
+
+                <img
+                    src="https://images.unsplash.com/photo-1611591437281-460bfbe1220a?auto=format&fit=crop&w=800&q=80"
+                    alt="Pearl Bracelet">
+
+
+                <button class="wishlist">
+                    ♡
+                </button>
+
+            </div>
+
+
+            <div class="product-info">
+
+                <p class="product-category">
+                    JEWELRY
+                </p>
+
+                <h3>
+                    Pearl Bracelet
+                </h3>
+
+                <p class="product-description">
+                    Elegant handmade pearl bracelet.
+                </p>
+
+
+                <div class="product-bottom">
+
+                    <span class="price">
+                        ₹699
+                    </span>
+
+                    <button class="add-cart">
+                        Add to Cart
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- =================================================
+             JEWELRY 3
+             ================================================= -->
+
+        <div class="product-card"
+            data-category="Jewelry"
+            data-name="Handmade Earrings"
+            data-price="549">
+
+
+            <div class="product-image">
+
+                <img
+                    src="https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&w=800&q=80"
+                    alt="Handmade Earrings">
+
+
+                <button class="wishlist">
+                    ♡
+                </button>
+
+            </div>
+
+
+            <div class="product-info">
+
+                <p class="product-category">
+                    JEWELRY
+                </p>
+
+                <h3>
+                    Handmade Earrings
+                </h3>
+
+                <p class="product-description">
+                    Stylish handcrafted earrings for everyday wear.
+                </p>
+
+
+                <div class="product-bottom">
+
+                    <span class="price">
+                        ₹549
+                    </span>
+
+                    <button class="add-cart">
+                        Add to Cart
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- =================================================
+             JEWELRY 4
+             ================================================= -->
+
+        <div class="product-card"
+            data-category="Jewelry"
+            data-name="Boho Pendant"
+            data-price="799">
+
+
+            <div class="product-image">
+
+                <img
+                    src="https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=800&q=80"
+                    alt="Boho Pendant">
+
+
+                <button class="wishlist">
+                    ♡
+                </button>
+
+            </div>
+
+
+            <div class="product-info">
+
+                <p class="product-category">
+                    JEWELRY
+                </p>
+
+                <h3>
+                    Boho Pendant
+                </h3>
+
+                <p class="product-description">
+                    Artistic handmade pendant with a bohemian style.
+                </p>
+
+
+                <div class="product-bottom">
+
+                    <span class="price">
+                        ₹799
+                    </span>
+
+                    <button class="add-cart">
+                        Add to Cart
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- =================================================
+             HOME DECOR 1
+             ================================================= -->
+
+        <div class="product-card"
+            data-category="Home Decor"
+            data-name="Artisan Candle"
+            data-price="449">
+
+
+            <div class="product-image">
+
+                <img
+                    src="https://images.unsplash.com/photo-1603006905003-be475563bc59?auto=format&fit=crop&w=800&q=80"
+                    alt="Artisan Candle">
+
+
+                <button class="wishlist">
+                    ♡
+                </button>
+
+            </div>
+
+
+            <div class="product-info">
+
+                <p class="product-category">
+                    HOME DECOR
+                </p>
+
+                <h3>
+                    Artisan Candle
+                </h3>
+
+                <p class="product-description">
+                    Beautiful handmade scented candle.
+                </p>
+
+
+                <div class="product-bottom">
+
+                    <span class="price">
+                        ₹449
+                    </span>
+
+                    <button class="add-cart">
+                        Add to Cart
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- =================================================
+             HOME DECOR 2
+             ================================================= -->
+
+        <div class="product-card"
+            data-category="Home Decor"
+            data-name="Decorative Table Lamp"
+            data-price="1099">
+
+
+            <div class="product-image">
+
+                <img
+                    src="https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=800&q=80"
+                    alt="Decorative Table Lamp">
+
+
+                <button class="wishlist">
+                    ♡
+                </button>
+
+            </div>
+
+
+            <div class="product-info">
+
+                <p class="product-category">
+                    HOME DECOR
+                </p>
+
+                <h3>
+                    Decorative Table Lamp
+                </h3>
+
+                <p class="product-description">
+                    Warm handcrafted lighting for your home.
+                </p>
+
+
+                <div class="product-bottom">
+
+                    <span class="price">
+                        ₹1099
+                    </span>
+
+                    <button class="add-cart">
+                        Add to Cart
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- =================================================
+             HOME DECOR 3
+             ================================================= -->
+
+        <div class="product-card"
+            data-category="Home Decor"
+            data-name="Macrame Wall Hanging"
+            data-price="849">
+
+
+            <div class="product-image">
+
+                <img
+                    src="https://images.unsplash.com/photo-1528698827591-e19ccd7bc23d?auto=format&fit=crop&w=800&q=80"
+                    alt="Macrame Wall Hanging">
+
+
+                <button class="wishlist">
+                    ♡
+                </button>
+
+            </div>
+
+
+            <div class="product-info">
+
+                <p class="product-category">
+                    HOME DECOR
+                </p>
+
+                <h3>
+                    Macrame Wall Hanging
+                </h3>
+
+                <p class="product-description">
+                    Handmade macrame decoration for your walls.
+                </p>
+
+
+                <div class="product-bottom">
+
+                    <span class="price">
+                        ₹849
+                    </span>
+
+                    <button class="add-cart">
+                        Add to Cart
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- =================================================
+             HOME DECOR 4
+             ================================================= -->
+
+        <div class="product-card"
+            data-category="Home Decor"
+            data-name="Handcrafted Flower Decor"
+            data-price="649">
+
+
+            <div class="product-image">
+
+                <img
+                    src="https://images.unsplash.com/photo-1455587734955-081b22074882?auto=format&fit=crop&w=800&q=80"
+                    alt="Handcrafted Flower Decor">
+
+
+                <button class="wishlist">
+                    ♡
+                </button>
+
+            </div>
+
+
+            <div class="product-info">
+
+                <p class="product-category">
+                    HOME DECOR
+                </p>
+
+                <h3>
+                    Handcrafted Flower Decor
+                </h3>
+
+                <p class="product-description">
+                    Beautiful handmade decoration inspired by nature.
+                </p>
+
+
+                <div class="product-bottom">
+
+                    <span class="price">
+                        ₹649
+                    </span>
+
+                    <button class="add-cart">
+                        Add to Cart
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     ABOUT
+     ===================================================== -->
+
+<section class="about"
+    id="about">
+
+
+    <div class="about-content">
+
+
+        <p class="small-heading">
+            OUR STORY
+        </p>
+
+
+        <h2>
+
+            Art Made By Hands,
+
+            <span>
+                Made With Heart.
+            </span>
+
+        </h2>
+
+
+        <p>
+
+            Artify is a creative space where
+            artists and art lovers come together.
+            We celebrate handmade products,
+            unique ideas and the people behind
+            every creation.
+
+        </p>
+
+
+        <p>
+
+            Every piece tells a story and brings
+            a little more creativity into
+            everyday life.
+
+        </p>
+
+
+        <button class="about-button"
+            id="learnMoreBtn">
+
+            Learn More
+
+        </button>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     CONTACT
+     ===================================================== -->
+
+<section class="contact"
+    id="contact">
+
+
+    <div class="section-heading">
+
+        <p>
+            GET IN TOUCH
+        </p>
+
+        <h2>
+            Let's Create Something Beautiful
+        </h2>
+
+    </div>
+
+
+
+    <form id="contactForm">
+
+
+        <input
+            type="text"
+            id="name"
+            placeholder="Your Name"
+            required>
+
+
+        <input
+            type="email"
+            id="email"
+            placeholder="Your Email"
+            required>
+
+
+        <textarea
+            id="message"
+            placeholder="Your Message"
+            rows="5"
+            required></textarea>
+
+
+        <button type="submit">
+
+            Send Message
+
+        </button>
+
+
+    </form>
+
+</section>
+
+
+
+<!-- =====================================================
+     FOOTER
+     ===================================================== -->
+
+<footer>
+
+
+    <div class="artify-logo">
+
+        <span class="logo-hat"></span>
+
+        <span class="logo-text">
+
+            ARTIFY<span>.</span>
+
+        </span>
+
+    </div>
+
+
+    <p>
+
+        Celebrating creativity,
+        craftsmanship and handmade art.
+
+    </p>
+
+
+    <div class="social-links">
+
+        Instagram
+        &nbsp; | &nbsp;
+
+        Pinterest
+        &nbsp; | &nbsp;
+
+        Facebook
+
+    </div>
+
+
+    <p class="copyright">
+
+        © 2026 Artify.
+        All rights reserved.
+
+    </p>
+
+
+</footer>
+
+
+
+<!-- =====================================================
+     POPUP CONTAINER
+     ===================================================== -->
+
+<div id="popupContainer"></div>
+
+
+
+<!-- JAVASCRIPT -->
+
+<script src="script.js"></script>
+
+
+</body>
+
+</html>
